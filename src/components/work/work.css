@@ -1,0 +1,101 @@
+
+#work{
+    background-color: #F4F6FC;
+}
+#work .work_inn{
+    padding: 128px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#work .work_part{
+    width: 35%;
+}
+#work .work_part h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: darkblue;
+}
+#work .work_part p{
+    font-size: 16px;
+    line-height: 28px;
+    color: darkblue;
+    padding-bottom: 16px;
+}
+#work .work_part a{
+    color: royalblue;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+#work .work_part a i{
+    padding-left: 16px;
+}
+#work .strategy{
+    width: 50%;
+}
+#work .strategy .stra_inn{
+    display: flex;
+    justify-content: space-between;
+}
+#work .strategy .stra_inn .star_one{
+   width: 50%;
+}
+#work .strategy .stra_inn .star_one h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    padding: 16px 0 8px 0;
+}
+#work .strategy .stra_inn .star_one p{
+    font-size: 16px;
+    line-height: 28px;
+}
+#work .strategy .pd{
+    padding-top: 48px;
+}
+#work .strategy .stra_inn .star_one1{
+    width: 50px;
+    height: 50px;
+    background-color: #2405F2;
+    text-align: center;
+    line-height: 10px;
+    color: #fff;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+#work .strategy .stra_inn .star_one1::after{
+    width: 50px;
+    height: 50px;
+    background-color: #5239FA;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    left: 10px;
+}
+
+#work .strategy .stra_inn .star_one1::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    background: #FCD980;
+    
+}
+#work .strategy .stra_inn .star_one1 h4{
+    width: 50px;
+     height: 50px;
+     text-align: center;
+     line-height: 50px;
+     color: #fff;
+     border-radius: 8px;
+     position: absolute;
+     z-index: 2;
+}

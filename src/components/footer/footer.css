@@ -1,0 +1,70 @@
+
+#foter{
+    background: #1C1E53;
+    padding-top: 100px; 
+}
+.bg{
+    display: flex
+}
+#foter .contact{
+    width: 50%;
+    float: left;
+}
+#foter .contact p{
+    color: #fff;
+    padding-top: 22px;
+    width: 60%;
+    padding-bottom: 86px;
+    line-height: 25px;
+}
+
+.contact_num{
+    display: flex;
+    padding: 10px;
+    background-color: yellow;
+    width: 80%;
+    color: darkblue;
+}
+.contact_num .call{
+    padding-left: 30px;
+}
+.contact_num .call h5,
+.contact_num .mail h5{
+    padding-top: 10px;
+}
+#foter .talk{
+    width: 50%;
+    float: right;
+    color: #fff;
+}
+#foter .talk h2{
+    padding-bottom: 14px ;
+}
+#foter .talk p{
+    padding-bottom: 28px;
+    width: 55%;
+    line-height: 25px;
+}
+#foter .talk .link ul{
+    display: flex;
+}
+#foter .talk .link ul li{
+    padding: 0 5px;
+}
+#foter .talk .link ul li a{
+    color: #fff;
+}
+.foot_Down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    color: darkblue
+}
+.copyright_menu ul{
+    display: flex;
+}
+.copyright_menu ul li a{
+    padding-left: 30px;
+    color: darkblue
+}

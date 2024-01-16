@@ -1,0 +1,49 @@
+
+#feature{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+#feature .feat_head {
+    text-align: center;
+}
+#feature .feat_head h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: darkblue;
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 47px;
+}
+#feature .feat_head h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: darkblue;
+    padding-bottom: 12px;
+}
+#feature .service {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px
+}
+#feature .service .ser_inn {
+    width: 31%;
+    background: #fff;
+    padding: 58px 33px 48px 48px;
+}
+#feature .service .ser_inn h4{
+    padding: 22px 0 12px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: darkblue
+}
+#feature .service .ser_inn p {
+    font-size: 16px;
+    line-height: 28px;
+    color: darkblue
+}
+#feature .service .ser_inn i{
+    color: royalblue
+}

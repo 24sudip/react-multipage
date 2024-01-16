@@ -1,0 +1,121 @@
+
+#project{
+    padding: 128px 0;
+}
+#project .project_head{
+    display: flex;
+    justify-content: space-between;
+}
+#project .project_head .project_text{
+    width: 50%;
+}
+#project .project_head .project_text h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    padding-bottom: 64px;
+}
+#project .project_head .view1{
+    text-align: end;
+    width: 50%;
+    padding-top: 21px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    font-weight: 500;
+}
+#project .project_head .view1 i{
+    padding-left: 16px;
+}
+#project .project_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#project .project_inner .porject1{
+    width: 67%;
+    position: relative;
+}
+#project .project_inner .porject1 img{
+    width: 100%;
+}
+#project .project_inner .porject1 .overlay{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 45%;
+    height:0%;
+    background-color: #1c1e5381;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+}
+#project .project_inner .porject1:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+#project .project_inner .porject1 .overlay .overlay_inn h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+}
+#project .project_inner .porject1 .overlay .overlay_inn p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    padding: 16px 0 40px 0;
+}
+#project .project_inner .porject2 .overlay .overlay_inn .view,
+#project .project_inner .porject1 .overlay .overlay_inn .view{
+    color: yellow;
+}
+#project .project_inner .porject2 .overlay .overlay_inn .view i,
+#project .project_inner .porject1 .overlay .overlay_inn .view i{
+    padding-left: 7px;
+}
+#project .project_inner .porject2{
+    width: 31%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#project .project_inner .porject2 .project2_inn1{
+    position: relative;
+    width: 100%;
+    height: 48%;
+}
+#project .project_inner .porject2 .project2_inn1 img{
+    width: 100%;
+    height: 100%;
+}
+#project .project_inner .porject2 .project2_inn1 .overlay{
+    position: absolute;
+    width: 100%;
+    height:0%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: #1c1e5381;
+    opacity: 0;
+    transition: all .5s;
+}
+#project .project_inner .porject2 .project2_inn1:hover .overlay{
+    height: 100%;
+    opacity: 1
+}
+#project .project_inner .porject2 .project2_inn1 .overlay p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+    padding: 135px 36px 10px 56px;
+}
+#project .project_inner .porject2 .overlay .overlay_inn .view{
+    padding-left: 56px
+}

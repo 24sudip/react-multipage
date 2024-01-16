@@ -1,0 +1,85 @@
+
+#slide {
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+#slide .slide_main {
+    display: flex;
+    justify-content: space-between
+}
+#slide .slide_main .slide_text {
+    width: 32%;
+    padding-right: 70px
+}
+#slide .slide_main .slide_text h2 {
+      font-size: 38px;
+    font-weight: 500;
+    line-height: 56px;
+    color: darkblue
+}
+#slide .slide_main .slide_text p {
+      font-size: 16px;
+    line-height: 28px;
+    color: darkblue
+}
+#slide .slide_main .slide_part {
+    position: relative;
+    width: 60%
+}
+#slide .slide_main .slide_part h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: darkblue
+}
+#slide .slide_main .slide_part .img {
+    display: flex;
+    padding-top: 48px
+}
+ #slide .slide_main .slide_part img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#slide .slide_main .slide_part .img .img_text {
+    padding-left: 14px;
+    
+}
+#slide .slide_main .slide_part .img .img_text h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: darkblue
+}
+#slide .slide_main .slide_part .img .img_text h6 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    color: darkblue
+}
+#slide .slide_main .slide_part .icon .prev,
+#slide .slide_main .slide_part .icon .next{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    transition: all .5s;
+    color: darkblue;
+    cursor: pointer;
+}
+#slide .slide_main .slide_part .icon .next:hover{
+    background: #5239FA;
+    color: #fff;
+}
+#slide .slide_main .slide_part .icon .prev{
+    right: 40px
+}
+#slide .slide_main .slide_part .icon .prev:hover{
+    background: #5239FA;
+    color: #fff;
+}

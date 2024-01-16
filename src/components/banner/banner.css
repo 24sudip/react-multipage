@@ -1,0 +1,44 @@
+/*  */
+#banner {
+  background: #1c1e53;
+  padding: 128px 0;
+}
+.banner_inner {
+  display: flex;
+}
+.banner_text {
+  width: 40%;
+}
+.banner_img {
+  width: 60%;
+  text-align: end;
+}
+.banner_text h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #fff;
+  padding-bottom: 24px;
+}
+.banner_text p {
+  color: #fff;
+  line-height: 28px;
+  padding-bottom: 48px;
+  font-size: 16px;
+}
+#banner .btn_work {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #1b1c2b;
+  padding: 16px 56px;
+  background: #fcd980;
+  border-radius: 41px;
+  margin-right: 40px;
+}
+.banner_text .pricing {
+  color: #fff;
+}
+.banner_text .pricing i {
+  padding-left: 10px;
+}
